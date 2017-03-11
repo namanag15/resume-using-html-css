@@ -1,0 +1,99 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body > header{
+	display: flex;
+	background-color: #17bf63;
+	flex-direction: column;
+	align-items: center;
+	box-sizing: border-box;
+}
+
+body > header img{
+	display: flex;
+	height: 175px;
+	justify-content: center;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	border-radius: 50%;
+}
+
+body > header h1{
+	padding-bottom: 5px;
+	color: white;
+}
+
+body > header h4{
+	padding-bottom: 15px;
+	color: white;
+}
+
+body > header nav{
+	width: 50%;
+	display: flex;
+}
+
+body > header nav ul{
+	display: flex;
+	list-style: none;
+	justify-content: space-between;
+	height: 100%;
+	width: 100%;
+}
+
+body > header nav ul li{
+	display: flex;
+	justify-content: space-between;
+	height: 100%;
+	width: 100%;
+	font-size: 18px;
+	font-weight: bold;
+}
+
+body > header nav ul li a:link{
+	color: white;
+	text-decoration: none;
+	height: 100%;
+	width: 100%;
+	text-align: center;
+	padding-bottom: 10px;
+	padding-top: 10px;
+}
+
+body > header nav ul li a:hover{
+	color: white;
+	text-decoration: none;
+	background-color: #17aa63;
+	height: 100%;
+	width: 100%;
+	text-align: center;
+	padding-bottom: 10px;
+	padding-top: 10px;
+}
+
+body > main > section {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+body > main > section > header{
+	display: flex;
+	background-color: #95eab1;
+	align-items: center;
+	font-size: 18px;
+	font-weight: bold;
+    padding: 10px 10px;
+	margin: 10px 32px;
+	border-left-style: solid;
+	border-left-width: 15px;
+	border-left-color: #4CAF50; 
+}
+
+body > main > section > p{
+	text-align: center;
+	margin: 10px;
+}
