@@ -9,6 +9,7 @@ body > header{
 	flex-direction: column;
 	align-items: center;
 	box-sizing: border-box;
+	box-shadow: 4px 4px 10px grey;
 }
 
 body > header img{
@@ -62,6 +63,11 @@ body > header nav ul li a:link{
 	padding-top: 10px;
 }
 
+#active{
+	border-bottom-style: solid;
+	border-color: white;
+}
+
 body > header nav ul li a:hover{
 	color: white;
 	text-decoration: none;
@@ -71,7 +77,10 @@ body > header nav ul li a:hover{
 	text-align: center;
 	padding-bottom: 10px;
 	padding-top: 10px;
+	border-bottom-style: solid;
+	border-color: white;
 }
+
 
 body > main > section {
     margin-top: 10px;
@@ -84,16 +93,96 @@ body > main > section > header{
 	display: flex;
 	background-color: #95eab1;
 	align-items: center;
-	font-size: 18px;
-	font-weight: bold;
+	font-size: 20px;
+	font-family: "Georgia";
     padding: 10px 10px;
+    font-weight: bold;
 	margin: 10px 32px;
 	border-left-style: solid;
 	border-left-width: 15px;
-	border-left-color: #4CAF50; 
+	border-left-color: #4CAF50;
+	box-shadow: 4px 4px 10px grey;
+}
+
+body > main > section > header > i{
+	margin: 5px;
+	margin-right: 15px;
+}
+
+body > main > section > h3{
+	display: flex;
+	text-align: center;
 }
 
 body > main > section > p{
+	display: flex;
+	font-family: "Century Schoolbook L";
+    font-size: 20px;
 	text-align: center;
-	margin: 10px;
+	padding: 30px 220px;
+}
+
+.ima{
+	display: flex;
+	width: 200px;
+	height: 200px;
+}
+
+body > main > section > ul{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+body > main > section > ul >li{
+	display: flex;
+	flex-direction: row;
+	margin-top: 40px;
+	justify-content: center;
+	margin-bottom: 40px;
+	width: 75%;
+}
+
+body > main > section > ul > li > div{
+	display: flex;
+	flex-direction: column;
+	width: 50%;
+	margin-left: 50px;
+}
+
+body > main > section > ul > li > div > h3{
+	display: flex;
+}
+
+body > main > section > ul > li > div > h4{
+	display: flex;
+	color: grey;
+}
+
+body > main > section > ul > li > div > p{
+	display: flex;
+}
+
+.date{
+	text-align: center;
+}
+
+.hor{
+	display: flex;
+	width: 75%;
+    justify-content: center;
+}
+
+#lis{
+	display: flex;
+	margin-left: 50px;
+	list-style-type: circle;
+	flex-direction: column;
+
+}
+
+#lis > li{
+	display: flex;
+	margin-top: 10px;
+	margin-bottom: 10px;
 }
